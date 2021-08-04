@@ -1,12 +1,14 @@
 import pandas as pd
 import sys
 
+# Este es un código que tiene como finalidad generar un filtro
+
 # 5poses results convertion to pandas table
 filedat = sys.argv[1]
 out = sys.argv[2]
 
 print(filedat)
-print(out)
+#print(out)
 
 df = pd.read_csv(filedat)
 
